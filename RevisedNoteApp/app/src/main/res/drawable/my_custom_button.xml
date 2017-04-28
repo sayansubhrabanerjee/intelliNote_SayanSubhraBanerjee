@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true"
+        android:drawable="@android:drawable/dialog_holo_dark_frame"> </item>
+    <item>
+        <shape>
+            <solid
+                android:color="#330000CD"
+                />
+            <stroke
+                android:width="2dp"
+                android:color="@color/ColorTitle"/>
+            <corners
+                android:radius="12dp" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+
+</selector>

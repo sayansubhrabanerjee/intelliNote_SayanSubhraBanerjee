@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorDefault">#FA8A04</color>
+    <color name="colorToolbar">#956cd2</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="ColorDescription">#999999</color>
+    <color name="ColorTitle">#6825A3</color>
+    <color name="colorYellowVariant1">#F8C471</color>
+    <color name="year">#999999</color>
+    <color name="title">#222222</color>
+    <color name="colorFAB">#2C6004</color>
+    <color name="colorFABOrange">#EA7A04</color>
+    <color name="colorFABIndigo">#0B0679</color>
+    <color name="black_overlay">#99000000</color>
+    <color name="fabShadowGrey">#42000000</color>
+
+
+</resources>

@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="revisednoteapp.sayan.revisednoteapp.MainActivity">
+
+    <item
+        android:id="@+id/action_stopAlarm"
+        android:orderInCategory="100"
+        android:title="@string/action_stopAlarm"
+        app:showAsAction="never" />
+
+    <!--<group android:id="@+id/group_weather"
+        android:checkableBehavior="single">
+    <item
+        android:id="@+id/action_weather"
+        android:orderInCategory="100"
+        android:title="@string/action_weather"
+        app:showAsAction="never" />
+    </group>
+    <group android:id="@+id/group_location"
+        android:checkableBehavior="single">
+    <item
+        android:id="@+id/action_location"
+        android:orderInCategory="100"
+        android:title="@string/action_location"
+        app:showAsAction="never" />
+    </group>-->
+</menu>

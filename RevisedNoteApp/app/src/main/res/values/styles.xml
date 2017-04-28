@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionOverflowMenuStyle">@style/CMOptionsMenu</item>
+
+        <item name="windowActionBar">false</item>  <!--window decor exception-->
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="CMOptionsMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:popupBackground">#D4C2E3</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme_Show_Dialog_Alert" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!--<item name="android:background">#00b58a</item>-->
+    <item name="android:background">#e3e4fa</item>
+    <item name="android:textColor">#63029d</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textColorPrimary">@android:color/holo_orange_light</item>
+    <item name="android:textAppearanceMedium">@android:style/TextAppearance.Holo.Medium</item>
+    <item name="android:actionMenuTextColor">#000000</item>
+        <!--<item name="android:windowEnterAnimation">@anim/slide_enter</item>-->
+    </style>
+
+    <color name="transparent_green_color">#8800ff00</color>
+    <style name="TranslucentGreen" parent="android:Theme.Translucent">
+        <item name="android:windowBackground">@color/transparent_green_color</item>
+    </style>
+
+
+
+
+
+</resources>
