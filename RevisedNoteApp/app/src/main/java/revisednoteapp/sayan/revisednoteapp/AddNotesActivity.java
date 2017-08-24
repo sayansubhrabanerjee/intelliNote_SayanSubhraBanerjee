@@ -53,6 +53,7 @@ public class AddNotesActivity extends AppCompatActivity {
     SimpleDateFormat sdf;
     private ProgressDialog mSpinner;
     LinearLayout mParentLinearLayoutAddTask;
+    //Comment
 
     public AlarmManager alarmManager;
     public PendingIntent alarmIntent;
